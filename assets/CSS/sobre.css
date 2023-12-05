@@ -1,0 +1,25 @@
+.sobre {
+    padding: .5rem;
+}
+
+.sobre .title {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sobre .txt, .sobre .sub-title, .sobre .title-liga, .sobre .desc-liga {
+    color: #fff;
+}
+
+.sobre .txt {
+    text-align: justify;
+}
+
+.sobre .sub-title {
+    font-size: 1rem;
+}
+
+.sobre .title-liga {
+    font-size: 1rem;
+}

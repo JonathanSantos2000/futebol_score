@@ -1,0 +1,297 @@
+main {
+    margin: 2.6rem .3rem .5rem;
+}
+
+.col-left, .col-rigth {
+    display: none;
+}
+
+.col-center {
+    display: flex;
+    flex-direction: column;
+    min-height: 715px;
+    background: #1C2632;
+    border-radius: 15px;
+}
+
+.title-img {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 1rem auto;
+}
+
+.title-img img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sub-title {
+    font-size: 20px;
+}
+
+/* hearde-main start */
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-inf {
+    color: #fff;
+    margin-left: .5rem;
+}
+
+#btn-info, #btn-calendar {
+    background: none;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+#btn-info i::before, #btn-calendar i::before {
+    color: #fff;
+    font-size: 25px;
+}
+
+.inf-score {
+    display: none;
+    color: #fff;
+    margin: .2rem 0.5rem 0;
+    text-align: justify;
+}
+
+.btn-calendar {
+    margin-right: .5rem;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: .2rem;
+}
+
+.calendar-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    margin: 0.2rem 0 0 0;
+    background: #1C2632;
+    border: 1px solid #131A21;
+}
+
+.calendar-header a i::before {
+    color: #fff;
+}
+
+.calendar table {
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    border-spacing: 0;
+}
+
+.calendar table thead tr th {
+    background: #131A21;
+}
+
+.calendar table tbody {
+    text-align: center;
+}
+
+.calendar table tbody tr td {
+    border: 1px solid #131A21;
+}
+
+.calendar table tbody tr td a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.calendar table tbody tr td a:hover {
+    color: #800080;
+}
+
+.other-month {
+    color: #6A6565;
+}
+
+/* end */
+.game {
+    margin: .5rem;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.game .data {
+    padding: 0 1rem;
+    font-size: .5rem;
+}
+
+.game .teams {
+    width: 100%;
+    border-left: 1px solid #fff;
+}
+
+.name-flag img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.score-team-one, .score-team-two {
+    margin-right: 1rem;
+}
+
+.team-one, .team-two, .name-flag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#msgError {
+    color: #fff;
+    text-align: justify;
+    margin: .5rem .4rem;
+}
+
+/* coluna esquerda */
+
+.col-left .calendar {
+    background: #1C2632;
+    border-radius: 15px;
+    margin-bottom: .5rem;
+    padding: 1rem;
+}
+
+/* Rank */
+.col-left .rank {
+    width: 100%;
+    min-height: 559px;
+    background: #1C2632;
+    border-radius: 15px;
+    padding: .5rem;
+    color: #fff;
+}
+
+.col-left .rank .title-rank {
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+#rank {
+    width: 100%;
+    height: 100%;
+    border-spacing: 0;
+}
+
+#rank,
+#rank thead tr th,
+#rank tbody tr td {
+    border: .1rem solid #131A21;
+}
+
+.number {
+    text-align: center;
+}
+
+
+/* coluna direita */
+.col-rigth .placar {
+    width: 100%;
+    min-height: 137px;
+    background: #1C2632;
+    border-radius: 15px;
+    margin-bottom: .5rem;
+
+}
+
+.col-rigth .top-players {
+    width: 100%;
+    min-height: 700px;
+    background: #1C2632;
+    border-radius: 15px;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-players .title-top-player {
+    text-align: center;
+    color: #fff;
+}
+
+.top-players .top-players-table {
+    width: 100%;
+    height: 100%;
+    border: .1rem solid #131A21;
+    color: #fff;
+    border-spacing: 0;
+}
+
+.top-players-table thead tr th,
+.top-players-table tbody tr td {
+    border: .1rem solid #131A21;
+    padding: .5rem;
+
+}
+
+
+@media (min-width: 992px) {
+    .remove {
+        display: none;
+    }
+
+    main {
+        margin: .7rem 100px .5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-header {
+        display: none;
+    }
+
+    .col-left {
+        display: block;
+        width: 22%;
+        min-height: 715px;
+    }
+
+    .col-center {
+        width: 49%;
+        margin: 0 .5rem;
+    }
+
+    .col-rigth {
+        display: block;
+        width: 32%;
+        min-height: 715px;
+    }
+}

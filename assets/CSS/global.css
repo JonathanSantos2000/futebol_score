@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #131A21;
+    height: 100vh;
+}
+
+.logo img {
+    width: 115px;
+    height: 39px;
+}
