@@ -187,8 +187,24 @@ entre em contato conosco para que possamos investigar. Agradecemos sua compreens
         </div>
     </div>
     <div class="col-rigth">
-        <div class="placar">
-
+    <div class="placar">
+            <?php
+            $randomGame = array_rand($arrayGames);
+            $game = $arrayGames[$randomGame];
+            ?>
+            <div class="placarTeam">
+                <div class="placarTeamLogo">
+                    <img src="<?php echo $game->flagTeamOne ?>" alt="">
+                </div>
+                <h5><?php echo $game->nameTeamOne ?></h5>
+            </div>
+            <h1>X</h1>
+            <div class="placarTeam">
+                <div class="placarTeamLogo">
+                    <img src="<?php echo $game->flagTeamTwo ?>" alt="">
+                </div>
+                <h5><?php echo $game->nameTeamTwo ?></h5>
+            </div>
         </div>
         <div class="top-players">
             <h1 class="title-top-player">Top 10 Players</h1>

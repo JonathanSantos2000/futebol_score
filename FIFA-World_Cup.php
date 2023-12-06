@@ -66,10 +66,6 @@ $msgErroAPI = "Aguarde um momento, estamos processando sua solicitação. Parece
 Isso pode ser devido a um grande volume de dados ou a problemas temporários de conectividade. Por favor, seja paciente e, se o problema persistir, 
 entre em contato conosco para que possamos investigar. Agradecemos sua compreensão e paciência";
 
-/* echo "<pre>";
-var_dump($arrayTopPlayer);
-echo "</pre>";
- */
 ?>
 <main>
     <div class="col-left">
@@ -193,8 +189,24 @@ echo "</pre>";
         </div>
     </div>
     <div class="col-rigth">
-        <div class="placar">
-
+    <div class="placar">
+            <?php
+            $randomGame = array_rand($arrayGames);
+            $game = $arrayGames[$randomGame];
+            ?>
+            <div class="placarTeam">
+                <div class="placarTeamLogo">
+                    <img src="<?php echo $game->flagTeamOne ?>" alt="">
+                </div>
+                <h5><?php echo $game->nameTeamOne ?></h5>
+            </div>
+            <h1>X</h1>
+            <div class="placarTeam">
+                <div class="placarTeamLogo">
+                    <img src="<?php echo $game->flagTeamTwo ?>" alt="">
+                </div>
+                <h5><?php echo $game->nameTeamTwo ?></h5>
+            </div>
         </div>
         <div class="top-players">
             <h1 class="title-top-player">Top 10 Players</h1>
