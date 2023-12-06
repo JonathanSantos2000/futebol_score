@@ -36,7 +36,8 @@ function displayCalendar($month, $year)
     echo " <a href='?day=01&month={$nextMonth}&year={$nextYear}'><i class='bi bi-caret-right-fill'></i></a>";
     echo '</div>';
     /* Montando Calendario */
-    echo '<table><thead><tr><th>DOM</th><th>SEG</th><th>TER</th><th>QUA</th><th>QUI</th><th>SEX</th><th>SAB</th></tr></thead>';
+    echo '<table>';
+    echo '<thead class="calendar-pequeno"><tr><th>D</th><th>S</th><th>T</th><th>Q</th><th>Q</th><th>S</th><th>S</th></tr></thead>';
     echo '<tbody><tr>';
     /* Preencher os espaços em branco no inicio do mês */
     for ($i = 0; $i < date("w", $firstDay); $i++) {

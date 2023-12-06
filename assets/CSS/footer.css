@@ -14,6 +14,7 @@ footer .logo img {
 }
 
 footer .sobre {
+    display: block;
     background: #4A535F;
     color: #fff;
     padding: 15px;
@@ -113,6 +114,7 @@ footer .sobre {
 .wrapper .icon:hover .tooltip {
     text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.4);
 }
+
 .wrapper .linkedin:hover span,
 .wrapper .linkedin:hover .tooltip,
 .wrapper .linkedin:hover .tooltip:before {
@@ -125,3 +127,37 @@ footer .sobre {
     background: #333;
 }
 
+#texto-sobre {
+    margin: 0 100px;
+    width: 60%;
+}
+
+#CopyRight {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#games-desktop {
+    display: none;
+    width: 20%;
+}
+
+#games-desktop ul {
+    list-style-type: none;
+}
+
+#games-desktop ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    footer .sobre {
+        display: flex;
+    }
+
+    #games-desktop {
+        display: block;
+    }
+}
