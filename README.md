@@ -8,10 +8,12 @@ O **Match Point Status** é um projeto web dedicado ao acompanhamento de diversa
 O projeto foi concebido com base em um design elaborado no Figma, resultando em uma interface intuitiva e amigável para os usuários.
 [Link para o arquivo Figma](https://www.figma.com/file/1NLSefgZLHvRxQz5GnHWSJ/Match-Point-Stats?type=design&node-id=0%3A1&mode=dev) e
 
-[fotos do projeto Desktop topo](assest/IMG/Desktop-top.png).
-[fotos do projeto Desktop rodape](assest/IMG/Desktop-rodape.png).
-[fotos do projeto Mobile topo](assest/IMG/Mobile-top.png).
-[fotos do projeto Mobile Rodape](assest/IMG/Mobile-rodape.png).
+[fotos do projeto Desktop topo]![Desktop-topo](https://github.com/JonathanSantos2000/futebol_score/assets/62775506/5d68d5c0-49b1-421a-89a2-d58da4a613fa).
+[fotos do projeto Desktop rodape]![Desktop-rodape](https://github.com/JonathanSantos2000/futebol_score/assets/62775506/9cf82686-5dec-4f46-8251-47c45404f7fe).
+[fotos do projeto Mobile topo].<br>
+![Mobile-topo](https://github.com/JonathanSantos2000/futebol_score/assets/62775506/fa25165b-2992-46ce-b99e-9a0ba7518fbd).<br>
+[fotos do projeto Mobile Rodape]<br>
+![Mobile-rodape](https://github.com/JonathanSantos2000/futebol_score/assets/62775506/20b08c97-4ee7-461f-bc01-4f35faf94e10).
 
 ## Ligas Acompanhadas
 
